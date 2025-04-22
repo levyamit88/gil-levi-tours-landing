@@ -1,16 +1,17 @@
-
 import React from 'react';
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const tourHeader = (
   <div className="flex flex-col items-center mb-8 mt-0">
-    <div className="w-36 h-36 md:w-64 md:h-64 rounded-xl overflow-hidden shadow-lg bg-gray-200 mx-auto mb-6 animate-fade-in"
-      style={{ aspectRatio: "1/1" }}>
-      {/* Placeholder: User can upload their own image here */}
-      <img
-        src="/placeholder.svg"
-        alt="Placeholder"
-        className="w-full h-full object-cover object-center"
-      />
+    <div className="w-44 h-auto md:w-60 rounded-xl overflow-hidden shadow-lg bg-gray-200 mx-auto mb-6 animate-fade-in" style={{ maxWidth: '100%', aspectRatio: '9/16' }}>
+      <AspectRatio ratio={9 / 16}>
+        <img
+          src="/lovable-uploads/46492dab-c7e4-457b-a24d-a3e3d660e583.png"
+          alt="Gil Levy - מורה דרך"
+          className="w-full h-full object-cover object-center"
+          style={{ aspectRatio: '9/16' }}
+        />
+      </AspectRatio>
     </div>
     <h1 className="font-bold text-tour-dark text-3xl md:text-4xl lg:text-5xl text-center mb-3 animate-fade-in"
       style={{ lineHeight: 1.25 }}>
@@ -57,7 +58,7 @@ const mainHebrewContent = (
         - את אנשי העליות<br />
         - את הסובוטניקים<br />
         - את סיפורם של משפחת שמואלי<br />
-        מסע בין נהר הוולגה שברוסיה לשדות הגליל, דרך נחישות, אמונה, ומפגש בין תרבויות.
+        מסע בין נהר הוולגה שברוסיה לשדות הגליל, דרך נחישות, אמונה, ומפ��ש בין תרבויות.
       </div>
     </div>
 

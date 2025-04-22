@@ -3,6 +3,31 @@ import React from 'react';
 
 const images = [
   {
+    src: "/lovable-uploads/d55ca41b-69ac-46f0-8bfe-5c8020a01dd1.png",
+    alt: "בית בזלת בגליל התחתון"
+  },
+  {
+    src: "/lovable-uploads/42e1ee41-9178-44f9-975f-1491a29a5f0f.png",
+    alt: "ציור קיר בכנסייה גלילית"
+  },
+  {
+    src: "/lovable-uploads/f8bc3fa5-31bb-43d3-9be2-3fb3a35c3024.png",
+    alt: "כנסיה עתיקה בגליל"
+  },
+  {
+    src: "/lovable-uploads/a9057e10-8449-4150-a91a-3d640bf6d085.png",
+    alt: "חזית כנסיה בהר תבור"
+  },
+  {
+    src: "/lovable-uploads/18eb8cb3-5138-4db8-98c5-f5605f0eeb97.png",
+    alt: "מבנה עתיק ליד הר תבור"
+  },
+  {
+    src: "/lovable-uploads/e5a90b83-9007-4ca4-adcb-902112a9f680.png",
+    alt: "נוף ויער בגליל התחתון"
+  },
+  // Old entries
+  {
     src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
     alt: "הר תבור בזריחה"
   },

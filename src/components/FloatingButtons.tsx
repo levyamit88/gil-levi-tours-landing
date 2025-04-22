@@ -1,38 +1,37 @@
 
 import React from 'react';
-import { Mail } from 'lucide-react';
+import { Whatsapp, Mail } from 'lucide-react';
 
 const FloatingButtons = () => {
   return (
-    <div className="fixed bottom-6 left-6 flex flex-col space-y-4 z-50">
-      <a 
-        href="https://chat.whatsapp.com/DBu0m6oKrYqJX8jCsOLsnE" 
-        target="_blank" 
+    <div
+      className="
+        fixed top-1/2 right-4 z-50 transform -translate-y-1/2 flex flex-col items-center space-y-4
+        md:right-6
+      "
+      style={{ direction: 'ltr' }}
+    >
+      <a
+        href="https://wa.me/972524673336"
+        target="_blank"
         rel="noopener noreferrer"
-        className="action-button bg-green-500 text-white"
-        aria-label="שלח הודעת וואטסאפ"
+        className="
+          action-button w-14 h-14 flex items-center justify-center rounded-full shadow-lg bg-green-500 text-white
+          hover:bg-green-600 transition hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-400
+        "
+        aria-label="צ'אט בוואטסאפ"
       >
-        <svg 
-          width="24" 
-          height="24" 
-          viewBox="0 0 24 24" 
-          fill="none" 
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path 
-            fillRule="evenodd" 
-            clipRule="evenodd" 
-            d="M19.3925 4.60723C17.2984 2.51152 14.4758 1.33776 11.4765 1.33887C5.31522 1.33887 0.312704 6.3414 0.310142 12.5046C0.309254 14.3953 0.789592 16.2344 1.70543 17.8651L0.219971 23.6611L6.16139 22.209C7.73358 23.0417 9.48539 23.4783 11.2681 23.4783H11.2765C17.4362 23.4783 22.4395 18.4746 22.442 12.3113C22.443 9.32389 21.2688 6.50125 19.3925 4.60723ZM11.4765 21.5387H11.4694C9.87539 21.5387 8.31115 21.1199 6.94645 20.3322L6.5927 20.1243L3.09881 20.9864L3.97709 17.5823L3.74551 17.2143C2.87423 15.8001 2.42066 14.1724 2.42153 12.5046C2.42409 7.41247 6.38439 3.2796 11.4833 3.2796C13.9767 3.27865 16.2983 4.25208 18.0269 5.9864C19.7553 7.7207 20.7244 10.0457 20.7233 12.5416C20.7207 17.6349 16.7604 21.5387 11.4765 21.5387ZM16.4948 14.8736C16.2191 14.7354 14.8715 14.0733 14.6181 13.9776C14.3646 13.8818 14.1784 13.8341 13.9922 14.1099C13.806 14.3858 13.2837 14.9999 13.1197 15.1863C12.9558 15.3727 12.7918 15.397 12.5162 15.2588C12.2405 15.1205 11.3501 14.8267 10.3018 13.8921C9.48209 13.1583 8.93272 12.2527 8.76878 11.9766C8.60484 11.7006 8.7502 11.5489 8.88969 11.4089C9.01528 11.2827 9.16951 11.0834 9.30836 10.9194C9.44722 10.7553 9.49483 10.6357 9.59019 10.4493C9.68541 10.2631 9.63779 10.0991 9.56637 9.96084C9.49483 9.82256 8.94612 8.47429 8.71198 7.92206C8.48385 7.38546 8.25285 7.46044 8.08033 7.45099C7.91639 7.44212 7.73019 7.44097 7.54399 7.44097C7.35779 7.44097 7.05665 7.5125 6.80321 7.78866C6.54976 8.06469 5.84022 8.7267 5.84022 10.075C5.84022 11.4232 6.82342 12.7234 6.96227 12.9097C7.10113 13.0961 8.92536 15.8962 11.7052 17.0734C12.3645 17.3559 12.8819 17.5321 13.2831 17.6634C13.9446 17.8822 14.5458 17.8521 15.0216 17.7791C15.551 17.6977 16.6326 17.116 16.8666 16.4679C17.1007 15.8197 17.1007 15.2675 17.0292 15.1863C16.9579 15.1051 16.772 15.0531 16.4948 14.9148L16.4948 14.8736Z" 
-            fill="currentColor"
-          />
-        </svg>
+        <Whatsapp size={32} />
       </a>
-      <a 
-        href="mailto:Exploringil.info@gmail.com" 
-        className="action-button bg-blue-500 text-white"
+      <a
+        href="mailto:gil@example.com"
+        className="
+          action-button w-14 h-14 flex items-center justify-center rounded-full shadow-lg bg-blue-500 text-white
+          hover:bg-blue-600 transition hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-400
+        "
         aria-label="שלח אימייל"
       >
-        <Mail size={24} />
+        <Mail size={32} />
       </a>
     </div>
   );

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Whatsapp, Mail } from 'lucide-react';
+import { MessageCircle, Mail } from 'lucide-react';
 
 const FloatingButtons = () => {
   return (
@@ -21,7 +21,7 @@ const FloatingButtons = () => {
         "
         aria-label="צ'אט בוואטסאפ"
       >
-        <Whatsapp size={32} />
+        <MessageCircle size={32} />
       </a>
       <a
         href="mailto:gil@example.com"

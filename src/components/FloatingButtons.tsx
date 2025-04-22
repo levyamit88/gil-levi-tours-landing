@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MessageCircle, Mail } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const FloatingButtons = () => {
   return (
@@ -22,16 +22,6 @@ const FloatingButtons = () => {
         aria-label="צ'אט בוואטסאפ"
       >
         <MessageCircle size={32} />
-      </a>
-      <a
-        href="mailto:gil@example.com"
-        className="
-          action-button w-14 h-14 flex items-center justify-center rounded-full shadow-lg bg-blue-500 text-white
-          hover:bg-blue-600 transition hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-400
-        "
-        aria-label="שלח אימייל"
-      >
-        <Mail size={32} />
       </a>
     </div>
   );

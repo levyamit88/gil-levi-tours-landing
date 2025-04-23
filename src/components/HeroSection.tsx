@@ -1,5 +1,6 @@
 import React from 'react';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
+
 const tourHeader = <div className="flex flex-col items-center mb-8 mt-0">
     <div className="w-44 h-auto md:w-60 rounded-xl overflow-hidden shadow-lg bg-gray-200 mx-auto mb-6 animate-fade-in" style={{
     maxWidth: '100%',
@@ -21,6 +22,7 @@ const tourHeader = <div className="flex flex-col items-center mb-8 mt-0">
       </span>
     </h1>
   </div>;
+
 const mainHebrewContent = <section className="max-w-2xl mx-auto text-right rtl flex flex-col gap-2 text-[#282828] px-4 md:px-0">
     <p className="text-xl font-semibold mb-4 animate-fade-in opacity-0 animate-fade-in-delay-1">🌿 יש טיולים שלא מפספסים. נקודה.</p>
     <p className="text-lg mb-6 animate-fade-in">קחו מקל, קחו תרמיל, והצטרפו אליי לטיול מרתק ומרגש בגליל!</p>
@@ -53,8 +55,10 @@ const mainHebrewContent = <section className="max-w-2xl mx-auto text-right rtl f
         משם נמשיך למושבות הגליל התחתון, ונפגוש:<br />
         - את אנשי העליות<br />
         - את הסובוטניקים<br />
-        - את סיפורם של משפחת שמ��אלי<br />
-        מסע בין נהר הוולגה שברוסיה לשדות הגליל, דרך נחישות, אמונה, ומפ��ש בין תרבויות.
+        - את סיפורם של משפחת שמואלי
+
+        מסע בין נהר הוולגה שברוסיה לשדות הגליל,
+        דרך נחישות, אמונה, ופסיפס בין תרבויות.
       </div>
     </div>
 
@@ -85,6 +89,7 @@ const mainHebrewContent = <section className="max-w-2xl mx-auto text-right rtl f
       <span className="font-bold text-tour-dark mb-1 text-2xl">רוצים להירשם? פשוט לחצו על הכפתור הירוק😊</span>
     </div>
   </section>;
+
 const HeroSection = () => {
   return <section className="w-full pt-8 pb-4 bg-gradient-to-b from-tour-light to-white">
       {tourHeader}

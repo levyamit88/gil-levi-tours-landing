@@ -13,11 +13,6 @@ const iconData = [
     label: "פייסבוק",
     link: "https://www.facebook.com/share/1BrsX97Jh2/"
   },
-  {
-    Icon: Globe,
-    label: "אתר אינטרנט",
-    link: "https://exploringil.com/"
-  },
   // Optionally, home icon can link to website again or to '/'.
   {
     Icon: Home,

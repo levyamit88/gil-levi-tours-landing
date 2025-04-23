@@ -1,31 +1,27 @@
 import React from 'react';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
-
-const tourHeader = (
-  <div className="flex flex-col items-center mb-8 mt-0">
-    <div className="w-44 h-auto md:w-60 rounded-xl overflow-hidden shadow-lg bg-gray-200 mx-auto mb-6 animate-fade-in" style={{ maxWidth: '100%', aspectRatio: '9/16' }}>
+const tourHeader = <div className="flex flex-col items-center mb-8 mt-0">
+    <div className="w-44 h-auto md:w-60 rounded-xl overflow-hidden shadow-lg bg-gray-200 mx-auto mb-6 animate-fade-in" style={{
+    maxWidth: '100%',
+    aspectRatio: '9/16'
+  }}>
       <AspectRatio ratio={9 / 16}>
-        <img
-          src="/lovable-uploads/46492dab-c7e4-457b-a24d-a3e3d660e583.png"
-          alt="Gil Levy - מורה דרך"
-          className="w-full h-full object-cover object-center"
-          style={{ aspectRatio: '9/16' }}
-        />
+        <img src="/lovable-uploads/46492dab-c7e4-457b-a24d-a3e3d660e583.png" alt="Gil Levy - מורה דרך" className="w-full h-full object-cover object-center" style={{
+        aspectRatio: '9/16'
+      }} />
       </AspectRatio>
     </div>
-    <h1 className="font-bold text-tour-dark text-3xl md:text-4xl lg:text-5xl text-center mb-3 animate-fade-in"
-      style={{ lineHeight: 1.25 }}>
+    <h1 className="font-bold text-tour-dark text-3xl md:text-4xl lg:text-5xl text-center mb-3 animate-fade-in" style={{
+    lineHeight: 1.25
+  }}>
       🥾 הצטרפו אליי לטיול יחיד ומיוחד<br />
       דתות ותרבויות בגליל התחתון<br />
       <span className="font-semibold text-tour-secondary block text-xl md:text-2xl not-italic">
         יום שישי | 16.5 | שעה 09:00 | פסגת הר תבור
       </span>
     </h1>
-  </div>
-);
-
-const mainHebrewContent = (
-  <section className="max-w-2xl mx-auto text-right rtl flex flex-col gap-2 text-[#282828] px-4 md:px-0">
+  </div>;
+const mainHebrewContent = <section className="max-w-2xl mx-auto text-right rtl flex flex-col gap-2 text-[#282828] px-4 md:px-0">
     <p className="text-xl font-semibold mb-4 animate-fade-in opacity-0 animate-fade-in-delay-1">🌿 יש טיולים שלא מפספסים. נקודה.</p>
     <p className="text-lg mb-6 animate-fade-in">קחו מקל, קחו תרמיל, והצטרפו אליי לטיול מרתק ומרגש בגליל!</p>
     <p className="mb-5 animate-fade-in-delay-1">
@@ -86,19 +82,14 @@ const mainHebrewContent = (
       </ul>
     </div>
     <div className="mt-4 text-center animate-fade-in-delay-2">
-      <span className="font-bold text-tour-dark text-lg mb-1">📲 רוצים להצטרף?</span>
+      <span className="font-bold text-tour-dark text-lg mb-1">📲 לפרטים והצטרפות:</span>
       <p className="mb-0 text-base">מלאו את הפרטים בטופס 👇<br />או שלחו לי הודעה בוואטסאפ 💬</p>
     </div>
-  </section>
-);
-
+  </section>;
 const HeroSection = () => {
-  return (
-    <section className="w-full pt-8 pb-4 bg-gradient-to-b from-tour-light to-white">
+  return <section className="w-full pt-8 pb-4 bg-gradient-to-b from-tour-light to-white">
       {tourHeader}
       {mainHebrewContent}
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;

@@ -34,10 +34,9 @@ const TourHighlights = () => {
 
         <div className="mt-10 text-center opacity-0 animate-fade-in-delay-2">
           <h3 className="text-xl font-bold mb-4 text-tour-dark">📲 רוצים להצטרף?</h3>
-          <p className="mb-4">מלאו את הפרטים בטופס 👇<br />או שלחו לי הודעה בוואטסאפ 💬</p>
-          <button className="bg-tour-primary hover:bg-tour-secondary text-white px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-105">
-            הרשמה לטיול
-          </button>
+          <p className="mb-4 text-lg font-medium text-tour-dark">
+            ניתן לשלוח הודעת וואטסאפ דרך הכפתור הירוק של ההודעה בצד הדף.
+          </p>
         </div>
       </div>
     </section>

@@ -1,12 +1,12 @@
 
 import React from 'react';
-import { MessageCircle } from 'lucide-react';
+import { Whatsapp } from 'lucide-react';
 
 const FloatingButtons = () => {
   return (
     <div
       className="
-        fixed top-1/2 right-4 z-50 transform -translate-y-1/2 flex flex-col items-center space-y-4
+        fixed top-1/2 right-4 z-50 transform -translate-y-1/2 flex flex-col items-center
         md:right-6
       "
       style={{ direction: 'ltr' }}
@@ -16,12 +16,15 @@ const FloatingButtons = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="
-          action-button w-14 h-14 flex items-center justify-center rounded-full shadow-lg bg-green-500 text-white
+          flex items-center justify-center w-16 h-16 rounded-full shadow-xl bg-green-500 text-white
           hover:bg-green-600 transition hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-400
         "
-        aria-label="צ'אט בוואטסאפ"
+        aria-label="וואטסאפ"
+        style={{
+          boxShadow: '0 4px 24px 0 rgba(34, 197, 94, 0.5)'
+        }}
       >
-        <MessageCircle size={32} />
+        <Whatsapp size={38} />
       </a>
     </div>
   );

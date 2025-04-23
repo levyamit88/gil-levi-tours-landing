@@ -25,31 +25,6 @@ const images = [
   {
     src: "/lovable-uploads/e5a90b83-9007-4ca4-adcb-902112a9f680.png",
     alt: "נוף ויער בגליל התחתון"
-  },
-  // Old entries
-  {
-    src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
-    alt: "הר תבור בזריחה"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1504893524553-b855bce32c67",
-    alt: "נחל בגליל התחתון"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1426604966848-d7adac402bff",
-    alt: "נוף יער בגליל"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1458668383970-8ddd3927deed",
-    alt: "נוף הרים בגליל"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
-    alt: "יער בגליל"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
-    alt: "נוף גלילי"
   }
 ];
 

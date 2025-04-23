@@ -38,7 +38,6 @@ const Index = () => {
       <HeroSection />
       <div className="flex-1 flex flex-col">
         <ImageGallery />
-        <TourHighlights />
       </div>
       <Footer />
       <FloatingButtons />

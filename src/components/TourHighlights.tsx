@@ -32,18 +32,12 @@ const TourHighlights = () => {
           </ul>
         </div>
 
-        <div className="mt-10 text-center opacity-0 animate-fade-in-delay-2">
-          <h3 className="text-xl font-bold mb-4 text-tour-dark">לפרטים והצטרפות:</h3>
-          <div className="mb-2 text-lg font-medium text-tour-dark flex flex-col items-center gap-2">
-            <span className="flex items-center justify-center gap-1">
-              <span role="img" aria-label="וואטסאפ">📲</span>
-              ניתן לשלוח לי הודעת וואטסאפ דרך הכפתור הירוק בצד העמוד
-            </span>
-            <span className="flex items-center justify-center gap-1">
-              <span role="img" aria-label="טלפון">☎️</span>
-              או פשוט להתקשר ולשריין מקום 😊
-            </span>
-          </div>
+        <div className="mt-10 flex justify-center opacity-0 animate-fade-in-delay-2">
+          <span className="text-tour-dark text-lg md:text-xl font-bold flex items-center gap-2">
+            <span role="img" aria-label="צ'אט">💬</span>
+            רוצים להירשם? פשוט לחצו על הכפתור הירוק
+            <span role="img" aria-label="סמיילי">😊</span>
+          </span>
         </div>
       </div>
     </section>

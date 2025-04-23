@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Whatsapp } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const FloatingButtons = () => {
   return (
@@ -24,10 +24,11 @@ const FloatingButtons = () => {
           boxShadow: '0 4px 24px 0 rgba(34, 197, 94, 0.5)'
         }}
       >
-        <Whatsapp size={38} />
+        <MessageCircle size={38} />
       </a>
     </div>
   );
 };
 
 export default FloatingButtons;
+

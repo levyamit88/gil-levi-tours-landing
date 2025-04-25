@@ -82,7 +82,7 @@ const mainHebrewContent = <section className="max-w-2xl mx-auto text-right rtl f
       </ul>
     </div>
     <div className="mt-4 text-center animate-fade-in-delay-2">
-      <span className="font-bold text-tour-dark mb-1 text-2xl">רוצים להירשם? פשוט לחצו על הכפתור הירוק😊</span>
+      <span className="font-bold text-tour-dark mb-1 text-2xl">לפרטים והרשמה פשוט לחצו על הכפתור הירוק😊</span>
     </div>
   </section>;
 const HeroSection = () => {

@@ -6,6 +6,7 @@ import ImageGallery from '@/components/ImageGallery';
 import TourHighlights from '@/components/TourHighlights';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 const Index = () => {
   useEffect(() => {
@@ -41,6 +42,7 @@ const Index = () => {
       </div>
       <Footer />
       <FloatingButtons />
+      <WhatsAppButton />
     </div>
   );
 };

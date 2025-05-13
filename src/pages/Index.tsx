@@ -1,11 +1,9 @@
-
 import React, { useEffect } from 'react';
 import HeroSection from '@/components/HeroSection';
 import TourDetails from '@/components/TourDetails';
 import ImageGallery from '@/components/ImageGallery';
 import TourHighlights from '@/components/TourHighlights';
 import Footer from '@/components/Footer';
-import FloatingButtons from '@/components/FloatingButtons';
 import WhatsAppButton from '@/components/WhatsAppButton';
 
 const Index = () => {
@@ -41,7 +39,6 @@ const Index = () => {
         <ImageGallery />
       </div>
       <Footer />
-      <FloatingButtons />
       <WhatsAppButton />
     </div>
   );
